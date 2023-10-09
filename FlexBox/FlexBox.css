@@ -1,0 +1,98 @@
+/* *{this is universal
+
+    box-sizing: border-box;
+} */
+
+
+.container{
+    height:400px;
+    border: 2px solid black;
+
+    /* how to make flexbox */
+    display: flex;
+
+
+    /* Properties of flexbox */
+    
+
+
+    /* flex-direction: column; */
+
+
+
+
+    /* to perserve width of item */
+    /* flex-wrap: wrap-reverse; */
+
+
+
+
+    /* short notation of above two */
+    /* flex-flow: row wrap; */
+
+
+
+    /* align item across main axix */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;*/
+
+    
+    /* align-items: center; */
+
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    /* to generate gap */
+    /* gap: 10px; */
+
+    /* align item across cross axis */
+    
+    /* align-content: space-evenly; */
+    
+
+}
+
+
+
+
+
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+    /* width: 100px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+
+    /* if we use flex basis without content will hide automatic */
+    /* flex-basis: 100px; */
+    /* flex-basis: 50%; */
+
+    /* we can use only flex to shorthand notation to order flex flow, flex shrink, flex basis */
+    /* flex: ; */
+
+    }
+
+#box1{
+    /* order: 1; */
+}
+
+#box2{
+    /* order: 3; */
+    /* align-self: stretch; */
+}
+#box3{
+    /* order: 2;
+    flex-grow: 1; */
+}
+
+#box4{
+    /* order: 4; */
+}
